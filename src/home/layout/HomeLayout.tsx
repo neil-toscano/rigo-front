@@ -10,9 +10,9 @@ export const HomeLayout = ({ children }: childrenProps) => {
   return (
     <>
       <div className="bg-aliceblue">
-        <MenubarDemo />//superior
-        <div className="min-h-screen">{children}</div> //contenido
-        <Footer />//pie
+        <MenubarDemo />
+        <div className="min-h-screen">{children}</div>
+        <Footer />
       </div>
     </>
   );
