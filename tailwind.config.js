@@ -18,6 +18,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        azulpuro:'#024A7F',
         greyclear:'#6D6D6D',
         azulmarino:'#3186D4',
         purple: '#3f3cbb',
