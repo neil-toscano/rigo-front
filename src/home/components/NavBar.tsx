@@ -14,8 +14,8 @@ import { Button } from "@/components/ui/button";
 export function MenubarDemo() {
   return (
     <>
-      <div className="flex justify-between bg-cadetblue">
-        <Menubar className="bg-cadetblue text-white my-0.5 rounded-none border-0">
+      <div className="flex justify-between bg-azulpuro">
+        <Menubar className="bg-azulpuro text-white my-0.5 rounded-none border-0">
           <MenubarMenu>
             <MenubarTrigger className="cursor-pointer">Nosotros</MenubarTrigger>
           </MenubarMenu>
@@ -45,7 +45,7 @@ export function MenubarDemo() {
             </MenubarContent>
           </MenubarMenu>
         </Menubar>
-        <div className="flex justify-around items-center bg-cadetblue basis-1/4 my-0.5">
+        <div className="flex justify-around items-center bg-azulpuro basis-1/4 my-0.5">
           <Input
             placeholder="Search"
             className="focus-visible:ring-0 focus:border-1 focus:border-emerald-600 basis-3/4 h-8"
