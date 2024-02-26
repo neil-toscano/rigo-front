@@ -1,13 +1,12 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { input } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import gotita from '../img/gotita.jpg';
 export const Agtech = () => {
   return (
     <div className="flex justify-around items-center h-screen bg-cyan-400">
       <div className="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
-        <h1 className="mt-10 text-center text-3xl font-bold leading-9 tracking-tight text-gray-900">RIGO</h1>
+        <h1 className="mt-10 text-center text-3xl font-bold leading-9 tracking-tight text-gray-900">RIGO-AGTECH</h1>
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img className="mx-auto h-10 w-auto" src={gotita} alt="Your Company"/>
           <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Iniciar sesión con su cuenta</h2>
