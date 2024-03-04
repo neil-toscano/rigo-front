@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-rigo2-dev-195214-authRole",
+      "UnauthRoleArn": "arn:aws:iam::905418110016:role/amplify-rigo2-dev-195214-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::905418110016:role/amplify-rigo2-dev-195214-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-rigo2-dev-195214-deployment",
+      "UnauthRoleName": "amplify-rigo2-dev-195214-unauthRole",
+      "StackName": "amplify-rigo2-dev-195214",
+      "StackId": "arn:aws:cloudformation:us-east-2:905418110016:stack/amplify-rigo2-dev-195214/a08738d0-d11c-11ee-aa6d-0a7b12ca4f51",
+      "AmplifyAppId": "dwbgb241euu75"
+    },
+    "categories": {
+      "api": {
+        "rigo2": {}
+      },
+      "auth": {
+        "rigo23fce31a3": {}
+      }
+    }
+  }
+}

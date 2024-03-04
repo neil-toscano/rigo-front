@@ -1,0 +1,2 @@
+https://v47ous6wxfgodetxpdrumqmbs4.appsync-api.us-east-2.amazonaws.com/graphql
+da2-drekalyiqrfe3bnhhsmn46voim

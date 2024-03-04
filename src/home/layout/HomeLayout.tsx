@@ -12,7 +12,7 @@ export const HomeLayout = ({ children }: childrenProps) => {
     <>
       <div className="bg-aliceblue">
         <MenubarDemo />
-          <Outlet/>
+        <Outlet />
         <Footer />
       </div>
     </>
