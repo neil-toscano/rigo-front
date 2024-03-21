@@ -1,11 +1,12 @@
+import React from "react";
 import { Input } from "@/components/ui/input";
-import gotita from "../img/gotita.jpg";
+import gotita from '../img/gotita.jpg';
 export const Agtech = () => {
   return (
     <div className="flex justify-around items-center h-screen bg-cyan-400">
       <div className="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
         <h1 className="mt-10 text-center text-3xl font-bold leading-9 tracking-tight text-gray-900">
-          RIGO
+          RIGO-AGTECH
         </h1>
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img
@@ -84,7 +85,7 @@ export const Agtech = () => {
               href="#"
               className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
             >
-              {" "}
+              {' '}
               Únete a nosotros
             </a>
           </p>

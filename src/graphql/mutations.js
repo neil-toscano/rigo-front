@@ -175,3 +175,57 @@ export const deleteContent = /* GraphQL */ `
     }
   }
 `;
+export const createMotoruser = /* GraphQL */ `
+  mutation CreateMotoruser(
+    $input: CreateMotoruserInput!
+    $condition: ModelMotoruserConditionInput
+  ) {
+    createMotoruser(input: $input, condition: $condition) {
+      id
+      userEmail
+      estado
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+  }
+`;
+export const updateMotoruser = /* GraphQL */ `
+  mutation UpdateMotoruser(
+    $input: UpdateMotoruserInput!
+    $condition: ModelMotoruserConditionInput
+  ) {
+    updateMotoruser(input: $input, condition: $condition) {
+      id
+      userEmail
+      estado
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+  }
+`;
+export const deleteMotoruser = /* GraphQL */ `
+  mutation DeleteMotoruser(
+    $input: DeleteMotoruserInput!
+    $condition: ModelMotoruserConditionInput
+  ) {
+    deleteMotoruser(input: $input, condition: $condition) {
+      id
+      userEmail
+      estado
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+  }
+`;

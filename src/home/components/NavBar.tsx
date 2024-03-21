@@ -7,9 +7,9 @@ import {
   MenubarRadioItem,
   MenubarSeparator,
   MenubarTrigger,
-} from "@/components/ui/menubar";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
+} from '@/components/ui/menubar';
+import { Input } from '@/components/ui/input';
+import { Button } from '@/components/ui/button';
 
 export function MenubarDemo() {
   return (

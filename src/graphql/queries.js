@@ -76,12 +76,6 @@ export const getDatoSensores = /* GraphQL */ `
       id
       userEmail
       content {
-        items{
-          id
-          valor
-          createdAt
-          updatedAt
-        }
         nextToken
         startedAt
         __typename
@@ -203,6 +197,75 @@ export const syncContents = /* GraphQL */ `
         id
         datoSensoresID
         valor
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        __typename
+      }
+      nextToken
+      startedAt
+      __typename
+    }
+  }
+`;
+export const getMotoruser = /* GraphQL */ `
+  query GetMotoruser($id: ID!) {
+    getMotoruser(id: $id) {
+      id
+      userEmail
+      estado
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+  }
+`;
+export const listMotorusers = /* GraphQL */ `
+  query ListMotorusers(
+    $filter: ModelMotoruserFilterInput
+    $limit: Int
+    $nextToken: String
+  ) {
+    listMotorusers(filter: $filter, limit: $limit, nextToken: $nextToken) {
+      items {
+        id
+        userEmail
+        estado
+        createdAt
+        updatedAt
+        _version
+        _deleted
+        _lastChangedAt
+        __typename
+      }
+      nextToken
+      startedAt
+      __typename
+    }
+  }
+`;
+export const syncMotorusers = /* GraphQL */ `
+  query SyncMotorusers(
+    $filter: ModelMotoruserFilterInput
+    $limit: Int
+    $nextToken: String
+    $lastSync: AWSTimestamp
+  ) {
+    syncMotorusers(
+      filter: $filter
+      limit: $limit
+      nextToken: $nextToken
+      lastSync: $lastSync
+    ) {
+      items {
+        id
+        userEmail
+        estado
         createdAt
         updatedAt
         _version

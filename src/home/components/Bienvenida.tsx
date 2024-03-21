@@ -1,10 +1,10 @@
-import React from 'react'
-import { Heading } from "@aws-amplify/ui-react";
+import React from 'react';
+import { Heading } from '@aws-amplify/ui-react';
 
 interface propsId {
-    userId: string;
-    existeSensorId: string;
-    userEmail: string;
+  userId: string;
+  existeSensorId: string;
+  userEmail: string;
 }
 
 export const Bienvenida = ({ userId, existeSensorId, userEmail }: propsId) => {
@@ -13,8 +13,8 @@ export const Bienvenida = ({ userId, existeSensorId, userEmail }: propsId) => {
       <Heading level={1}>Hello {userEmail}</Heading>
       <ul>
         <li className="bg-green-300"> userId: {userId}</li>
-        <li className="bg-sky-200"> existe: { existeSensorId }</li>
+        <li className="bg-sky-200"> existe: {existeSensorId}</li>
       </ul>
     </div>
-  )
-}
+  );
+};

@@ -154,3 +154,54 @@ export const onDeleteContent = /* GraphQL */ `
     }
   }
 `;
+export const onCreateMotoruser = /* GraphQL */ `
+  subscription OnCreateMotoruser(
+    $filter: ModelSubscriptionMotoruserFilterInput
+  ) {
+    onCreateMotoruser(filter: $filter) {
+      id
+      userEmail
+      estado
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+  }
+`;
+export const onUpdateMotoruser = /* GraphQL */ `
+  subscription OnUpdateMotoruser(
+    $filter: ModelSubscriptionMotoruserFilterInput
+  ) {
+    onUpdateMotoruser(filter: $filter) {
+      id
+      userEmail
+      estado
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+  }
+`;
+export const onDeleteMotoruser = /* GraphQL */ `
+  subscription OnDeleteMotoruser(
+    $filter: ModelSubscriptionMotoruserFilterInput
+  ) {
+    onDeleteMotoruser(filter: $filter) {
+      id
+      userEmail
+      estado
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+  }
+`;
